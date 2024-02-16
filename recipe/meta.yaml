@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/astronomy-commons/hipscat-import/archive/v{{ version }}.tar.gz
-  sha256: 06d613fc1dbd928ed7009934ce9fd473aa6a9cb53dbc3a243a09715a9ce7cde5
+  sha256: 73b90a4cda7a1f5f8cc4da45e4f9b75c5d791f99851f49b0535b207cb7fba45a
 
 build:
   noarch: python
