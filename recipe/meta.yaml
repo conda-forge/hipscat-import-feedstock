@@ -23,8 +23,8 @@ requirements:
     - pip
   run:
     - python >=3.9
-    - dask-core
-    - distributed
+    - dask-core <=2024.2.0
+    - distributed <=2024.2.0
     - deprecated
     - healpy
     - hipscat >=0.2.4
