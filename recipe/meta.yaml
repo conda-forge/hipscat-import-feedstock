@@ -1,5 +1,5 @@
 {% set name = "hipscat-import" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/astronomy-commons/hipscat-import/archive/v{{ version }}.tar.gz
-  sha256: 73b90a4cda7a1f5f8cc4da45e4f9b75c5d791f99851f49b0535b207cb7fba45a
+  sha256: 901a2da818bd1752f3eb5a20d1a743f1de1c11f3cff4e91e53c0d4140c49d8e6
 
 build:
   noarch: python
@@ -23,8 +23,8 @@ requirements:
     - pip
   run:
     - python >=3.9
-    - dask-core
-    - distributed
+    - dask-core <=2024.2.0
+    - distributed <=2024.2.0
     - deprecated
     - healpy
     - hipscat >=0.2.4
