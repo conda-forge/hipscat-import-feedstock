@@ -23,17 +23,16 @@ requirements:
     - pip
   run:
     - python >=3.9,<=3.11.8
-    - dask-core <=2024.2.0
-    - distributed <=2024.2.0
+    - dask <=2024.2.1
     - deprecated
     - healpy
-    - hipscat >=0.2.6
+    - hipscat >=0.3.0
     - ipykernel
-    - pandas <2.1.0
+    - pandas
     - pyarrow
     - pyyaml
     - tqdm
-    - numpy <1.25
+    - numpy
     - fsspec <=2024.2.0
 
 test:
