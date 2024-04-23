@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.9,<=3.11.8
-    - dask <=2024.2.1
+    - dask <=2024.2.0
     - deprecated
     - healpy
     - hipscat >=0.3.0
