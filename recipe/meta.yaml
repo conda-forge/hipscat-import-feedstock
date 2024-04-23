@@ -17,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.9,<=3.11.8
     - setuptools >=62
     - setuptools-scm >=6.2
     - pip
   run:
-    - python >=3.9
+    - python >=3.9,<=3.11.8
     - dask-core <=2024.2.0
     - distributed <=2024.2.0
     - deprecated
