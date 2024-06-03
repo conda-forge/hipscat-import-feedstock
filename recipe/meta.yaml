@@ -35,7 +35,6 @@ requirements:
     - scipy
     - tqdm
     - numpy
-    - fsspec <=2024.2.0
 
 test:
   imports:
