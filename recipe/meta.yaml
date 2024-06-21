@@ -1,5 +1,5 @@
 {% set name = "hipscat-import" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/astronomy-commons/hipscat-import/archive/v{{ version }}.tar.gz
-  sha256: 0c46e28472a2ce8880ac6b46d40342565c95393155259c6ac0d06fb6a3a9eec9
+  sha256: e00c15f928feefa8b3122046fb6eb41567a4c0a9282dcf148978f63de1784fe4
 
 build:
   noarch: python
@@ -27,8 +27,9 @@ requirements:
     - distributed >=2024.3.0
     - deprecated
     - healpy
-    - hipscat >=0.3.4
+    - hipscat >=0.3.5
     - ipykernel
+    - numpy <2
     - pandas
     - pyarrow
     - pyyaml
