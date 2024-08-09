@@ -27,7 +27,7 @@ requirements:
     - distributed >=2024.3.0
     - deprecated
     - healpy
-    - hipscat >=0.3.5
+    - hipscat >=0.3.8
     - ipykernel
     - numpy <2
     - pandas
